@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Biodata</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th>Roll No.:</th>
+                <td><input type="text" name="id"></td>
+            </tr>
+            <tr>
+                <th>Date of birth:</th>
+                <td><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio" name="gender">Male 
+                    &nbsp;
+                    <input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+                <th>Phone number:</th>
+                <td><input type="tel" name="phone"></td>
+            </tr>
+            <tr>
+                <th>Address: </th>
+                <td><input type="textarea" col="20" rows="4" name="addrline1"></td>
+            </tr>
+            <tr>
+                <th>City:</th>
+                <td><select name="cities" id="cities">
+                    <option value="Select">Select</option>
+                    <option value="Guntur">Guntur</option>
+                    <option value="Vijayawada">Vijayawada</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <th>Local Date time:</th>
+                <td><input type="datetime-local" name="datetime"></td>
+            </tr>
+            <tr>
+                <th>IQ</th>
+                <td><sub>0</sub><input type="range" name="iq" min="0" max="300"><sub>300</sub></td>
+            </tr>
+            <tr>
+                <th>Properties</th>
+                <td><input type="checkbox" name="pro">House&nbsp;
+                    <input type="checkbox" name="pro">Bike&nbsp;
+                    <input type="checkbox" name="pro">Land</td>
+            </tr>
+            <tr>
+                <th><input type="submit" value="Submit"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
