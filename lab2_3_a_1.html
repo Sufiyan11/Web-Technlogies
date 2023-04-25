@@ -1,0 +1,24 @@
+<html>
+<head><title>lab2_3_a</title>
+<script>
+function GCD(a,b){
+   var rem;
+   rem=a-(parseInt(a/b)*b);
+   if(rem==0){
+      return b;
+   }
+   else{
+      GCD(b,rem);
+   }
+}
+var num1=prompt("Enter the 1st number : ");
+var num2=prompt("Enter the 2nd number : ");
+num1=parseInt(num1);
+num2=parseInt(num2);
+var gcd=GCD(num1,num2);
+document.write("GCD of "+num1+" and "+num2+" is "+gcd);
+</script>
+</head>
+<body>
+</body>
+</html>

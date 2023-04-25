@@ -1,0 +1,21 @@
+<html>
+<head><title>lab2_3_a</title>
+<script>
+function reverse(num){
+   var res=0,rem;
+   while(num>=1){
+	rem=num%10;
+	res=res*10+rem;
+	num=parseInt(num/10);
+   }
+   return res;
+}
+var num=prompt("Enter the number : ");
+num=parseInt(num);
+var rev=reverse(num);
+document.write("Reverse of "+num+" is "+rev);
+</script>
+</head>
+<body>
+</body>
+</html>
