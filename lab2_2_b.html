@@ -1,0 +1,21 @@
+<html>
+<head><title>lab2_2_b</title>
+<script>
+var num=prompt("Enter the  number : ");
+num=parseInt(num);
+var rev=0;
+var pre=num;
+var rem;
+while(num>=1){
+	rem=num%10;
+	rev=rev*10+rem;
+	num=parseInt(num/10);
+}
+document.write("<h1>Reverse of "+pre+" is "+rev+"</h1>");
+</script>
+</head>
+<body>
+</body>
+</html>
+	
+	
